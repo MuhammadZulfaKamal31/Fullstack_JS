@@ -1,0 +1,27 @@
+GET http://localhost:5000/user
+
+###
+GET http://localhost:5000/user/2
+
+###
+POST  http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "name": "Muhamad Zulfa Kamal",
+    "email": "zulfakamal019@gmail.com",
+    "gender":"male"
+    
+}
+###
+PATCH  http://localhost:5000/user/2
+Content-Type: application/json
+
+{
+    "name": "Mutiara Dewi",
+    "email": "mutiara019@gmail.com",
+    "gender":"female"
+}
+
+###
+DELETE   http://localhost:5000/user/1
