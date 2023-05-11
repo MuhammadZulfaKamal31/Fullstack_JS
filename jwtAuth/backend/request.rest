@@ -1,0 +1,29 @@
+GET  http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEyLCJuYW1lIjoibXVoYW1tYWQgWnVsZmEgS2FtYWwiLCJlbWFpbCI6Inp1bGZha2FtYWwwMTlAZ21haWwuY29tIiwiaWF0IjoxNjgzMTEzODQ0LCJleHAiOjE2ODMxMTM5MDR9.4biaXoozuRzQw5SrY_Gn7nPOKtygd2pfO5jvq1PwN2Y
+
+###
+POST   http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Muhammad Zulfa Kamal2",
+    "email": "zulfakamal017@gmail.com",
+    "password": "Agustus32",
+    "confPassword": "Agustus32"
+}
+
+###
+POST   http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "zulfakamal019@gmail.com",
+    "password": "Agustus@31"
+}
+
+###
+GET http://localhost:5000/token
+
+###
+DELETE  http://localhost:5000/logout
+
