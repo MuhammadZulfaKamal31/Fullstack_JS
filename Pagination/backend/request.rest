@@ -1,0 +1,7 @@
+
+//penulisan pencarian nama kayak gini
+GET http://localhost:5000/users?search_query=kam&page=0&limit=10
+
+####
+//defult
+GET http://localhost:5000/users?page=0&limit=10
